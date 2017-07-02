@@ -1,0 +1,44 @@
+#everything {
+  width: 700px;
+  border: solid;
+  margin:0 auto
+}
+
+body {
+   margin-top: 50px;
+}
+
+.nav {
+  background-color: #006666;
+  font-family: 'Viga', sans-serif;
+}
+
+#about {
+  height: 350px;
+  background-color: #D0D0D0;
+  position: relative;
+  font-family: 'raleway', sans-serif;
+}
+
+#about-text {
+  padding: 90px 20px
+}
+
+.col-6 {
+  border: solid;
+}
+
+#photo {
+  max-height: 300px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5%;
+}
+
+#portfolio {
+  height: 500px;
+  background-color: green;
+}
