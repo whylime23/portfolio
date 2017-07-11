@@ -3,71 +3,81 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
   <title>Emily Taylor Portfolio</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway|Viga" rel="stylesheet">
-
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
 <body>
-  <div id ="everything">
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-toggleable-sm navbar-toggler-right fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand">Emily Taylor</a>
+    <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+   </div>
+  </nav>
 
-  <div class="container">
-   <nav class="navbar navbar-toggleable-sm fixed-top">
-     <a class="navbar-brand">Emily Taylor</a>
-     <ul class="navbar-nav">
-       <li class="nav-item active">
-         <div class="justify-content-end">
-         <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="#">Portfolio</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="#">Contact</a>
-       </li>
-       </div>
-   </nav>
+  <!-- About Me Section -->
+  <div id="about" class="container">
+    <div class="row" id="about-row">
+      <div class="col" id="about-text">
+        <h4>About Me</h4>
+        <p>Self-taught front-end developer with a background in primary education and editing. <p>
+        <p>Hard working and enthusiastic with strong attention to detail and a desire to learn.</p>
+      </div>
+      <div class="col" id="about">
+        <img src="https://lh3.googleusercontent.com/baAH4xnqJ-edFD_dq4D2CtTPwZihlkp_W5gqFXzBcWLeK7sHoSNLCMxXaXmemj9zTWmcRJSJXjAfF3QgHz4_3MNi7eF-OD0Qjbfo_NdHHiJwOLCnV3S3nOu2xaXGtVJoxIFkIw=w636-h635-no" alt="Photo of Emily Taylor" id="emily-photo">
+      </div>
+    </div>
   </div>
 
-     <div id="about">
-       <div class="container">
-         <div class="row">
+ <!-- Portfolio Section -->
 
-           <div class="col-6" id="about-text">
-             <h4>About Me</h4>
-             <p>Self-taught front-end developer with a background in primary education and editing. <p>
-             <p>Hard working and enthusiastic with strong attention to detail and a desire to learn.</p>
-           </div>
+    <div id="portfolio" class="container">
+      <h4>Portfolio</h4>
+      <div class="row">
+        <div class="col d-flex justify-content-center" id="screenshots">
+          <a target='_blank' href="https://codepen.io/whylime23/full/XgeeGV/"><img src="https://lh3.googleusercontent.com/pHSVEMx9uJ--6s2leWE176U0C8bpy8Lf_n9DJHbxQ2AN_a7DWpC2Vwlhy4asByzsPijrilkQoJhIxgF6sK9Ny2kUiVKYLf6E_ldi00xlnKdLSbfM3YXTG5SApw8InyQpBHx-ehaqiWRZhQ_e7tWqQ3hO1qZ9HaCjehnqWiDBXl1jOTQFzxTPhJAKHPQe0Ursk7lqWshqrbz4zUjy9TVAIhe9ibM41JxB_OqkYXNrCIRWOBpc6HygIB423mUWcpJ0susihI3D85D2lC5AD3H1YxvKERX_y-b_NOXksFUAhXFHonQlexJGu0HJuWMNV5IBUGgGLajJgljKKjjQVnqRzGoWaoHo1V7yMlP43eWbxFhm2cORU4g30jYwv81s75ZDq2YISSfL30pzV4hJfD5RYnzne_BKQq3_iWunVJMf4qoWlw1tQh3bGxDPDkuOf_x1oZkbTJq_CCEesQ_50UwL3hWffDzJsClk0z-DEZzBAeGqlnzUqtBw15gIH8etQtrpnZwFa8ks7ax3-SiB0nXwT0I9tzuPury7_U5kIOuvxGWFn_cyMAACgyhfPC08HlUct2ftNCrckTwOXzraERXBcEX4L5jjjO5jxYfw3yrrSoX_lbqQLGwLeCXn=w1716-h1061-no" alt="Henry Navarre Tribute Page" id="screenshot"></a>
+        </div>
 
-           <div class="col-6" id="about">
-             <img src="https://lh3.googleusercontent.com/baAH4xnqJ-edFD_dq4D2CtTPwZihlkp_W5gqFXzBcWLeK7sHoSNLCMxXaXmemj9zTWmcRJSJXjAfF3QgHz4_3MNi7eF-OD0Qjbfo_NdHHiJwOLCnV3S3nOu2xaXGtVJoxIFkIw=w636-h635-no" alt="Photo of Emily Taylor" id="photo">
-           </div>
+        <div class="col d-flex justify-content-center" id="screenshots">
+          <img src="https://lh3.googleusercontent.com/qQiUA7MLF6dQPyRutTWGggBBKpcKTJXmhGA5AQTxGaCffcfSkNpAuxSjMK7Aa30vGgHfeod5n0Tichq17ilTeDYcJ_LDmmSj2dV0e6XA89GeN-_0_ZSWkl7axVJOWnlydNdc4ht33DZJwI5LLm47F3gYwOeTcwTiuzalc3gv5A_PHHC9gi-L-ZOOj4k6VS2BGzQ0NwQ9l-i1z1hfuUJEW9hLl80Rt0GHhxgPbRprwH4W_jcRaCkomQwvOvrUbOOMDUmyWVHscybRAe7aSjVDqmd6YOjoRrH3DW6_3rUXX5bgYtHddi-4aiqckPhDajSEP1rl41E23KXREEhBPNSQM9fC2OeHuw6aS-DWyvCwfmvEPiPN2ZCBhCXsyQLtGEVSmOjYScec8ee7YoN7w6TZG6utq_mhbEAnmKGgZWDpNglEDc0xwAStQo6iIGWBfTJsXItkm0QQIIHdBUs8rZ1xfQCzQHtpVDvxvt-KqjM8n2f23PZTILdTSUJ0lApbUnc3nV26aN60y8s9YjKzvVs6jH3u5Wby4STUpM_u86VEtv0pOw3bJCDKyWYOESDjS1iLTydG9Khi5dmqnkWXXJZFjHfnAQiI6d-hr3Afj7ymz2ICjkoyoogD=w650-h400-no" alt="Coming Soon" id="screenshot">
+        </div>
+      </div>
+    </div>
 
-         </div>
-       </div>
-     </div>
+  <!-- Contact Section -->
+    <div id="contact" class= "container">
+      <h4>Contact</h4>
+    </div>
 
-     <div id="portfolio">
-     </div>
+  <!-- Links Section -->
+  <div id="links">
+  </div>
 
-     <div id="contact">
-     </div>
+  <!-- Copyright Section -->
+  <div id="copyright">
+  </div>
 
-     <div id="links">
-     </div>
-
-     <div id="copyright">
-     </div>
-
-   </div>
   <script src="js/scripts.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
