@@ -16,66 +16,67 @@
 
 <body>
   <!-- Navbar Section -->
-  <nav class="navbar navbar-toggleable-sm navbar-toggler-right fixed-top">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-light bg-faded rounded navbar-toggleable-sm fixed-top custom-nav">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#containerNavbar" aria-controls="containerNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand">Emily Taylor</a>
-    <div class="collapse navbar-collapse">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
+    <div class="collapse navbar-collapse" id="containerNavbar">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
    </div>
   </nav>
+  <!-- End Navbar Section -->
 
   <!-- About Me Section -->
-  <div id="about" class="container">
-    <div class="row" id="about-row">
-      <div class="col" id="about-text">
+  <div class="about container" id="about">
+    <div class="about-row row">
+      <div class="about-text col">
         <h4>About Me</h4>
-        <p>Self-taught front-end developer with a background in primary education and editing. <p>
+        <p>Self-taught front-end developer with a background in primary education and editing. </p>
         <p>Hard working and enthusiastic with strong attention to detail and a desire to learn.</p>
       </div>
-      <div class="col" id="about">
-        <img src="https://lh3.googleusercontent.com/baAH4xnqJ-edFD_dq4D2CtTPwZihlkp_W5gqFXzBcWLeK7sHoSNLCMxXaXmemj9zTWmcRJSJXjAfF3QgHz4_3MNi7eF-OD0Qjbfo_NdHHiJwOLCnV3S3nOu2xaXGtVJoxIFkIw=w636-h635-no" alt="Photo of Emily Taylor" id="emily-photo">
+      <div class="about-photo col">
+        <img src="https://lh3.googleusercontent.com/baAH4xnqJ-edFD_dq4D2CtTPwZihlkp_W5gqFXzBcWLeK7sHoSNLCMxXaXmemj9zTWmcRJSJXjAfF3QgHz4_3MNi7eF-OD0Qjbfo_NdHHiJwOLCnV3S3nOu2xaXGtVJoxIFkIw=w636-h635-no" alt="Photo of Emily Taylor" class="emily-photo">
       </div>
     </div>
   </div>
 
  <!-- Portfolio Section -->
 
-    <div id="portfolio" class="container">
+    <div class="portfolio container" id="portfolio">
       <h4>Portfolio</h4>
       <div class="row">
-        <div class="col d-flex justify-content-center" id="screenshots">
-          <a target='_blank' href="https://codepen.io/whylime23/full/XgeeGV/"><img src="https://lh3.googleusercontent.com/pHSVEMx9uJ--6s2leWE176U0C8bpy8Lf_n9DJHbxQ2AN_a7DWpC2Vwlhy4asByzsPijrilkQoJhIxgF6sK9Ny2kUiVKYLf6E_ldi00xlnKdLSbfM3YXTG5SApw8InyQpBHx-ehaqiWRZhQ_e7tWqQ3hO1qZ9HaCjehnqWiDBXl1jOTQFzxTPhJAKHPQe0Ursk7lqWshqrbz4zUjy9TVAIhe9ibM41JxB_OqkYXNrCIRWOBpc6HygIB423mUWcpJ0susihI3D85D2lC5AD3H1YxvKERX_y-b_NOXksFUAhXFHonQlexJGu0HJuWMNV5IBUGgGLajJgljKKjjQVnqRzGoWaoHo1V7yMlP43eWbxFhm2cORU4g30jYwv81s75ZDq2YISSfL30pzV4hJfD5RYnzne_BKQq3_iWunVJMf4qoWlw1tQh3bGxDPDkuOf_x1oZkbTJq_CCEesQ_50UwL3hWffDzJsClk0z-DEZzBAeGqlnzUqtBw15gIH8etQtrpnZwFa8ks7ax3-SiB0nXwT0I9tzuPury7_U5kIOuvxGWFn_cyMAACgyhfPC08HlUct2ftNCrckTwOXzraERXBcEX4L5jjjO5jxYfw3yrrSoX_lbqQLGwLeCXn=w1716-h1061-no" alt="Henry Navarre Tribute Page" id="screenshot"></a>
+        <div class="col d-flex justify-content-center">
+          <a target="_blank" href="https://codepen.io/whylime23/full/XgeeGV/"><img src="https://lh3.googleusercontent.com/iW7V5LMzuC4ylPzRfPE3Qlx3yVnl6U-UzU-3AWtH8G9V-1-Qddi7Yp3l2Z-Y8-zym7Soj-ivpGPKmnZtxF38Ps_fq639csQp59L0VXjEouF8AK9Sxih5Mp4ENa-EkOVs6k0VBFdcDk-3Mi7HdFWB01Lw-p-vKPOc9RVKygsvDfWpfmwHszsUg4lT6AlRyz0WTtyo_FDYsEeyApQYcWy00dSHXTyJQjkTf7m_AVScOkwPQIbsPA6SkKox9gx061HS6s5TYc_wPGxK0xQC-yYI4w-bpR0Jiz4DimSsh0bOr-EM1Ig0vM4BBzMJYgFS84L1hjJnicU0rnyLOAGLEg_f-tIzF6KNTGmYrBO2x77MaZA4KM5rIW9oj8_J7IGciOA55ax3HrKt69R-iyLxx7ZNHBGCOjiv7NMwfWgpiZhNNKdASxJ00j4oWvUBR11oGtR8ORR1PFEuhLvEbXrJmP3i2v0b0LocLbAvT3Ywf8CbFkOFxCYb0ZBSJ7GrFp9A4rtpw-FgRVZOH-5VX3UxHcuMAv_1Y33cnejYI9DOjFPrOaAnARBzBENvCNDtIjG_U8xHKNb7ab2pAHMVpTuENlntEYvoJTyvWMvebAVIg8rjAkMPnLAIakV4zov7mh6jiOLe9nhS_u_5gMYipjG0LHz8WuYVh8Z37TdT1G4d0MDj0mzaqg=w1716-h1061-no" alt="Henry Navarre Tribute Page" class="screenshot"></a>
         </div>
 
-        <div class="col d-flex justify-content-center" id="screenshots">
-          <img src="https://lh3.googleusercontent.com/qQiUA7MLF6dQPyRutTWGggBBKpcKTJXmhGA5AQTxGaCffcfSkNpAuxSjMK7Aa30vGgHfeod5n0Tichq17ilTeDYcJ_LDmmSj2dV0e6XA89GeN-_0_ZSWkl7axVJOWnlydNdc4ht33DZJwI5LLm47F3gYwOeTcwTiuzalc3gv5A_PHHC9gi-L-ZOOj4k6VS2BGzQ0NwQ9l-i1z1hfuUJEW9hLl80Rt0GHhxgPbRprwH4W_jcRaCkomQwvOvrUbOOMDUmyWVHscybRAe7aSjVDqmd6YOjoRrH3DW6_3rUXX5bgYtHddi-4aiqckPhDajSEP1rl41E23KXREEhBPNSQM9fC2OeHuw6aS-DWyvCwfmvEPiPN2ZCBhCXsyQLtGEVSmOjYScec8ee7YoN7w6TZG6utq_mhbEAnmKGgZWDpNglEDc0xwAStQo6iIGWBfTJsXItkm0QQIIHdBUs8rZ1xfQCzQHtpVDvxvt-KqjM8n2f23PZTILdTSUJ0lApbUnc3nV26aN60y8s9YjKzvVs6jH3u5Wby4STUpM_u86VEtv0pOw3bJCDKyWYOESDjS1iLTydG9Khi5dmqnkWXXJZFjHfnAQiI6d-hr3Afj7ymz2ICjkoyoogD=w650-h400-no" alt="Coming Soon" id="screenshot">
+        <div class="col d-flex justify-content-center">
+          <img src="https://lh3.googleusercontent.com/TL5itt6CgitN0X934eD3sMC7FiQhD_6oPiwyUC40YZa-ySjBcIZMkulpDefMAIIK81P6A14a0UblKktZjK-XNbpzpTI0SvNVwqS_dRALBFFmeEGNfbHn6okWsDuHgcHhQLjlj4Oyw1QDebvbmVNciVpWQjZgseLXImEcIRNt3IoWwHutlfZ_jRTIjkO5YJRIbTotOKQsuK-xxt81pf5nMTv72m2Y1LOIvygArXBDnkqTx0AHwBM32IoB4ZsZgpeUNms9CSoaqDONchsKPGp_WuJU9VzC7zStL_snaZ6qiIcETKG9OW8y99EelM2_gIJqbKWWIdzsZUab9ueT0FQdAOgetuq2WpW8bSrw6FARSVODbMQgB0JQbAbhwBkbDuip4h0WaXY1sW2TdaDSMl3Y1pgNObq6k1j_VvFS7M7llVVX_YRnOmoFFSONW_Zub-4hRkQ6J2o5qwJzbRI1oxc3ZLZzbpgMfW96_uEVlg_OF7gNXtjEJ47yHk8Klj21-c8s-YaFmYzG9UfHF3G7Z6NHEwmG3MzmpYYeBP6wr_co7QdtBph8Eq2JFlWs4ECpNKeZTYQYU-bVFFt6GGghdBSLHFCrzuOp5cTvbuCisQkMqsQdxuhnFmr9q4VNef0_BDe1kkVDM4fmPNyZFZYrUVV-y9o6e9L7i4-KnQMgeDyejJofpA=w650-h400-no" alt="Coming Soon" class="screenshot">
         </div>
       </div>
     </div>
 
   <!-- Contact Section -->
-    <div id="contact" class= "container">
+    <div class= "contact container" id="contact">
       <h4>Contact</h4>
     </div>
 
   <!-- Links Section -->
-  <div id="links">
+  <div class="links">
   </div>
 
   <!-- Copyright Section -->
-  <div id="copyright">
+  <div class="copyright">
   </div>
 
   <script src="js/scripts.js"></script>
