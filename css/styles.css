@@ -1,5 +1,5 @@
 body {
-  width: 90%;
+  max-width: 1024px;
   box-shadow: 0 2px 3px 0 rgba(120,118,120,1);
   margin:0 auto;
 }
@@ -10,37 +10,50 @@ body {
 }
 
 .custom-nav {
-  width: 90%;
+  max-width: 1024px;
   box-shadow: 0 3px 3px 0 rgba(120,118,120,1);
   margin:0 auto;
   background-color: #006666;
   font-family: 'Viga', sans-serif;
   border-radius: 0;
   float: right;
+  color: #A9A9A9;
+}
+
+.custom-nav ul {
+  flex-basis: 100%;
+  justify-content: flex-end;
+}
+
+.navbar-brand {
+  transition: all .2s ease-in-out;
+}
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+.navbar-light {
+  color: #A9A9A9;
 }
 
 .about-photo {
-  max-height: 350px;
   position: relative;
   font-family: 'raleway', sans-serif;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
 }
 .about-row {
   box-shadow: 0 2px 4px 0 rgba(120,118,120,1);
   background-color: #D0D0D0;
 }
 
-
 .about-text {
-  padding: 90px 50px
+  padding: 7% 2% 7% 3%;
 }
 
 .emily-photo {
-  max-height: 300px;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  max-height: 200px;
   border-radius: 5%;
 }
 
@@ -50,12 +63,19 @@ body {
 }
 
 .screenshot {
-  max-height: 200px;
-  margin: 5%;
+  max-height: 250px;
+  margin: 10px;
 }
 
 .contact {
   background-color: white;
   padding: 3%;
-  height: 1000px; /*Temp height to test navbar functionality*/
+  height: 400px; /*Temp height to test navbar functionality*/
+}
+
+.links {
+  background-color: #D0D0D0;
+  padding: 3%;
+  text-align: center;
+  height: 200px; /*Temp height to test navbar functionality*/
 }

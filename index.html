@@ -16,14 +16,14 @@
 
 <body>
   <!-- Navbar Section -->
-  <nav class="navbar navbar-light bg-faded rounded navbar-toggleable-sm fixed-top custom-nav">
+  <nav class="navbar navbar-inverse bg-faded navbar-toggleable-sm fixed-top custom-nav">
     <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#containerNavbar" aria-controls="containerNavbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand">Emily Taylor</a>
     <div class="collapse navbar-collapse" id="containerNavbar">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+      <ul class="navbar-nav">
+        <li class="nav-item">
           <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
@@ -38,41 +38,62 @@
   <!-- End Navbar Section -->
 
   <!-- About Me Section -->
-  <div class="about container" id="about">
+  <div class="about container-fluid" id="about">
     <div class="about-row row">
-      <div class="about-text col">
+      <div class="about-text col-8">
         <h4>About Me</h4>
-        <p>Self-taught front-end developer with a background in primary education and editing. </p>
+        <p>Self-taught front-end developer with a background in primary education and editing. Knowledge of HTML, CSS and Javascript.</p>
         <p>Hard working and enthusiastic with strong attention to detail and a desire to learn.</p>
       </div>
-      <div class="about-photo col">
-        <img src="https://lh3.googleusercontent.com/baAH4xnqJ-edFD_dq4D2CtTPwZihlkp_W5gqFXzBcWLeK7sHoSNLCMxXaXmemj9zTWmcRJSJXjAfF3QgHz4_3MNi7eF-OD0Qjbfo_NdHHiJwOLCnV3S3nOu2xaXGtVJoxIFkIw=w636-h635-no" alt="Photo of Emily Taylor" class="emily-photo">
+      <div class="about-photo col-4 d-flex justify-content-center">
+        <img src="https://lh3.googleusercontent.com/baAH4xnqJ-edFD_dq4D2CtTPwZihlkp_W5gqFXzBcWLeK7sHoSNLCMxXaXmemj9zTWmcRJSJXjAfF3QgHz4_3MNi7eF-OD0Qjbfo_NdHHiJwOLCnV3S3nOu2xaXGtVJoxIFkIw=w636-h635-no" alt="Photo of Emily Taylor" class="emily-photo img-fluid">
       </div>
     </div>
   </div>
 
  <!-- Portfolio Section -->
 
-    <div class="portfolio container" id="portfolio">
+    <div class="portfolio container-fluid" id="portfolio">
       <h4>Portfolio</h4>
-      <div class="row">
+      <div class="first-row row">
         <div class="col d-flex justify-content-center">
-          <a target="_blank" href="https://codepen.io/whylime23/full/XgeeGV/"><img src="https://lh3.googleusercontent.com/iW7V5LMzuC4ylPzRfPE3Qlx3yVnl6U-UzU-3AWtH8G9V-1-Qddi7Yp3l2Z-Y8-zym7Soj-ivpGPKmnZtxF38Ps_fq639csQp59L0VXjEouF8AK9Sxih5Mp4ENa-EkOVs6k0VBFdcDk-3Mi7HdFWB01Lw-p-vKPOc9RVKygsvDfWpfmwHszsUg4lT6AlRyz0WTtyo_FDYsEeyApQYcWy00dSHXTyJQjkTf7m_AVScOkwPQIbsPA6SkKox9gx061HS6s5TYc_wPGxK0xQC-yYI4w-bpR0Jiz4DimSsh0bOr-EM1Ig0vM4BBzMJYgFS84L1hjJnicU0rnyLOAGLEg_f-tIzF6KNTGmYrBO2x77MaZA4KM5rIW9oj8_J7IGciOA55ax3HrKt69R-iyLxx7ZNHBGCOjiv7NMwfWgpiZhNNKdASxJ00j4oWvUBR11oGtR8ORR1PFEuhLvEbXrJmP3i2v0b0LocLbAvT3Ywf8CbFkOFxCYb0ZBSJ7GrFp9A4rtpw-FgRVZOH-5VX3UxHcuMAv_1Y33cnejYI9DOjFPrOaAnARBzBENvCNDtIjG_U8xHKNb7ab2pAHMVpTuENlntEYvoJTyvWMvebAVIg8rjAkMPnLAIakV4zov7mh6jiOLe9nhS_u_5gMYipjG0LHz8WuYVh8Z37TdT1G4d0MDj0mzaqg=w1716-h1061-no" alt="Henry Navarre Tribute Page" class="screenshot"></a>
+          <a target="_blank" href="https://codepen.io/whylime23/full/XgeeGV/"><img src="https://lh3.googleusercontent.com/sWJ7ZhcOcz5L3PCcBsR4dH-M5kEqNNNpEIBnRFcAjjavmyS3OQrHJRKUpzTum4fF5rmkVWKMTiCNA6-M-fFfk7zNU_QTrnJunT5HOHaVyY8HmLh_HyDZXfq6WPGAUV6eGRiQzctYnJitCfkkfv7UYHIU17gJMexW_b85eYbBXONR5sU3mvdvWeTmXWvd7QCmLEiSM0_B8e_8L0OHboJ373zBiRh1wYIdo01RpUepeQXkzR4_CL_oHQ-YJ9IAveNapnUeNV4ziMlXLdPAeUlmrlk5zvaxkohAyLkSDPrZElsy73FdEsfhJ6iNo92e1P_l9qHVcXtPyPwALr_QFBwiXmnyR3kTT--zqZMyBY7uQyR3_nyXvsLZINNhhXSkR5mSukdCtPRx6OAaD1YnBHWEOEkIJQgH7CqOCPcUkjA7Gh4sSNw6oR3U2yrpOh-vzoFmFrO1BOa2x5HeV9cRR8J6kYCewwUPqLOEie6NhWDNLYAsNFTiqP-ZkFcMNl1yeJx6E6EI1kCJAL2qb1N4b4UbinDkueTy0ltbXC3bFFPzpvX3Nvusc4_Ek1RrAJLtxEgk-l15J0T34GwIzTBzIXN5tI10Xzb5KPNzrr3DbQmM2tZWcFCeeE1VBqJXh7omAi08Wv4dcdVtdMvS0XGjinDx1hmGssEdklfQCDCGzNj-2oKJAQ=w650-h400-no" alt="Henry Navarre Tribute Page" class="screenshot"></a>
         </div>
 
         <div class="col d-flex justify-content-center">
           <img src="https://lh3.googleusercontent.com/TL5itt6CgitN0X934eD3sMC7FiQhD_6oPiwyUC40YZa-ySjBcIZMkulpDefMAIIK81P6A14a0UblKktZjK-XNbpzpTI0SvNVwqS_dRALBFFmeEGNfbHn6okWsDuHgcHhQLjlj4Oyw1QDebvbmVNciVpWQjZgseLXImEcIRNt3IoWwHutlfZ_jRTIjkO5YJRIbTotOKQsuK-xxt81pf5nMTv72m2Y1LOIvygArXBDnkqTx0AHwBM32IoB4ZsZgpeUNms9CSoaqDONchsKPGp_WuJU9VzC7zStL_snaZ6qiIcETKG9OW8y99EelM2_gIJqbKWWIdzsZUab9ueT0FQdAOgetuq2WpW8bSrw6FARSVODbMQgB0JQbAbhwBkbDuip4h0WaXY1sW2TdaDSMl3Y1pgNObq6k1j_VvFS7M7llVVX_YRnOmoFFSONW_Zub-4hRkQ6J2o5qwJzbRI1oxc3ZLZzbpgMfW96_uEVlg_OF7gNXtjEJ47yHk8Klj21-c8s-YaFmYzG9UfHF3G7Z6NHEwmG3MzmpYYeBP6wr_co7QdtBph8Eq2JFlWs4ECpNKeZTYQYU-bVFFt6GGghdBSLHFCrzuOp5cTvbuCisQkMqsQdxuhnFmr9q4VNef0_BDe1kkVDM4fmPNyZFZYrUVV-y9o6e9L7i4-KnQMgeDyejJofpA=w650-h400-no" alt="Coming Soon" class="screenshot">
         </div>
       </div>
+
+      <div class="second-row row">
+        <div class="col d-flex justify-content-center">
+          <img src="https://lh3.googleusercontent.com/TL5itt6CgitN0X934eD3sMC7FiQhD_6oPiwyUC40YZa-ySjBcIZMkulpDefMAIIK81P6A14a0UblKktZjK-XNbpzpTI0SvNVwqS_dRALBFFmeEGNfbHn6okWsDuHgcHhQLjlj4Oyw1QDebvbmVNciVpWQjZgseLXImEcIRNt3IoWwHutlfZ_jRTIjkO5YJRIbTotOKQsuK-xxt81pf5nMTv72m2Y1LOIvygArXBDnkqTx0AHwBM32IoB4ZsZgpeUNms9CSoaqDONchsKPGp_WuJU9VzC7zStL_snaZ6qiIcETKG9OW8y99EelM2_gIJqbKWWIdzsZUab9ueT0FQdAOgetuq2WpW8bSrw6FARSVODbMQgB0JQbAbhwBkbDuip4h0WaXY1sW2TdaDSMl3Y1pgNObq6k1j_VvFS7M7llVVX_YRnOmoFFSONW_Zub-4hRkQ6J2o5qwJzbRI1oxc3ZLZzbpgMfW96_uEVlg_OF7gNXtjEJ47yHk8Klj21-c8s-YaFmYzG9UfHF3G7Z6NHEwmG3MzmpYYeBP6wr_co7QdtBph8Eq2JFlWs4ECpNKeZTYQYU-bVFFt6GGghdBSLHFCrzuOp5cTvbuCisQkMqsQdxuhnFmr9q4VNef0_BDe1kkVDM4fmPNyZFZYrUVV-y9o6e9L7i4-KnQMgeDyejJofpA=w650-h400-no" alt="Coming Soon" class="screenshot">
+        </div>
+        <div class="col d-flex justify-content-center">
+          <img src="https://lh3.googleusercontent.com/TL5itt6CgitN0X934eD3sMC7FiQhD_6oPiwyUC40YZa-ySjBcIZMkulpDefMAIIK81P6A14a0UblKktZjK-XNbpzpTI0SvNVwqS_dRALBFFmeEGNfbHn6okWsDuHgcHhQLjlj4Oyw1QDebvbmVNciVpWQjZgseLXImEcIRNt3IoWwHutlfZ_jRTIjkO5YJRIbTotOKQsuK-xxt81pf5nMTv72m2Y1LOIvygArXBDnkqTx0AHwBM32IoB4ZsZgpeUNms9CSoaqDONchsKPGp_WuJU9VzC7zStL_snaZ6qiIcETKG9OW8y99EelM2_gIJqbKWWIdzsZUab9ueT0FQdAOgetuq2WpW8bSrw6FARSVODbMQgB0JQbAbhwBkbDuip4h0WaXY1sW2TdaDSMl3Y1pgNObq6k1j_VvFS7M7llVVX_YRnOmoFFSONW_Zub-4hRkQ6J2o5qwJzbRI1oxc3ZLZzbpgMfW96_uEVlg_OF7gNXtjEJ47yHk8Klj21-c8s-YaFmYzG9UfHF3G7Z6NHEwmG3MzmpYYeBP6wr_co7QdtBph8Eq2JFlWs4ECpNKeZTYQYU-bVFFt6GGghdBSLHFCrzuOp5cTvbuCisQkMqsQdxuhnFmr9q4VNef0_BDe1kkVDM4fmPNyZFZYrUVV-y9o6e9L7i4-KnQMgeDyejJofpA=w650-h400-no" alt="Coming Soon" class="screenshot">
+        </div>
+      </div>
     </div>
 
+
   <!-- Contact Section -->
-    <div class= "contact container" id="contact">
+    <div class= "contact container-fluid" id="contact">
       <h4>Contact</h4>
+
     </div>
 
   <!-- Links Section -->
   <div class="links">
+    <div class="row">
+      <div class="col-6">
+        <h5>About this page:</h5>
+        <h6>Made by Emily Taylor using codepen and atom.</h6>
+      </div>
+      <div class="col-6">
+        <h5>Around the web:</h5>
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+      </div>
+    </div>
   </div>
 
   <!-- Copyright Section -->
