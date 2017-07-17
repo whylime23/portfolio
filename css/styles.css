@@ -17,7 +17,7 @@ body {
   font-family: 'Viga', sans-serif;
   border-radius: 0;
   float: right;
-  color: #A9A9A9;
+  color: rgba(255,255,255,.5);
 }
 
 .custom-nav ul {
@@ -52,8 +52,31 @@ body {
   padding: 7% 2% 7% 3%;
 }
 
+.links {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.fa {
+  padding: 2%;
+  color: #006666;
+  box-sizing: border-box;
+  border: solid;
+  border-radius: 100%
+}
+
+.fa:hover {
+  background-color: white;
+  border-color: white;
+}
+
+.fa-codepen{
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
 .emily-photo {
-  max-height: 200px;
+  max-height: 300px;
   border-radius: 5%;
 }
 
@@ -67,15 +90,15 @@ body {
   margin: 10px;
 }
 
+/* commented out contact section until back-end available
 .contact {
   background-color: white;
   padding: 3%;
-  height: 400px; /*Temp height to test navbar functionality*/
-}
+  height: 400px;
+} */
 
-.links {
+.copyright {
   background-color: #D0D0D0;
-  padding: 3%;
+  padding: 2% 2% 1% 2%;
   text-align: center;
-  height: 200px; /*Temp height to test navbar functionality*/
 }
